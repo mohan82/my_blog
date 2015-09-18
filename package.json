@@ -1,0 +1,26 @@
+{
+  "name": "my_blog",
+  "version": "1.0.0",
+  "description": "My Personal Blog",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohan82/my_blog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Mohan Ambalavanan <mohan.ambalavanan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohan82/my_blog/issues"
+  },
+  "homepage": "https://github.com/mohan82/my_blog#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-watch": "^4.3.5"
+  }
+}

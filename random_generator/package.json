@@ -1,0 +1,19 @@
+{
+  "name": "random_generator",
+  "version": "1.0.0",
+  "description": "Random Text Image Generator",
+  "main": "random.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "random",
+    "image"
+  ],
+  "author": "Mohan Ambalavanan <mohan.ambalavanan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "lodash-node": "^3.10.1"
+  }
+}

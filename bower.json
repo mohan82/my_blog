@@ -1,0 +1,25 @@
+{
+  "name": "my_blog",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mohan82/my_blog",
+  "authors": [
+    "Mohan Ambalavanan <mohan.ambalavanan@gmail.com>"
+  ],
+  "description": "My Personal Blog",
+  "keywords": [
+    "blog"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.6",
+    "bootstrap": "~3.3.5",
+    "lodash": "~3.10.1"
+  }
+}
