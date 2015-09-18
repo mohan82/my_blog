@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" ng-app="Blog">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Mohan Ambalavanan Blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--- Boot Strap -->
+<head>
+    <title>Mohan Ambalavanan Personal Blog</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="styles/blog.css"/>
+</head>
+<body>
+<div class="container" ng-controller="BlogController" ng-cloak>
+    <div class="row">
+        <div ng-repeat=" item in blog.blogs">
+            <div class="col-xs-12 col-md-3 col-lg-4">
+                <div class="card">
+                    <div class="image">
+                        <img src="{{item.image}}">
+                        <span class="title">{{item.title}}</span>
+                    </div>
+                    <div class="content">
+                        {{item.content}}
+                    </div>
+                    <div class="action">
+                        <a href='#'>This is a link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/lodash/lodash.js"></script>
+<script src="scripts/blog.js"></script>
+</html>
